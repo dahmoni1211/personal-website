@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrahman Alobaisi - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Abdulrahman Alobaisi</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showModal('profile')">Profile</button></li>
+                <li><button onclick="showModal('education')">Education</button></li>
+                <li><button onclick="showModal('experience')">Experience</button></li>
+                <li><button onclick="showModal('skills')">Skills</button></li>
+                <li><button onclick="showModal('certifications')">Certifications</button></li>
+                <li><button onclick="showModal('contact')">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <img src="me.jpg" alt="Abdulrahman Alobaisi" class="profile-pic">
+            <p>Welcome to my interactive CV website. Navigate through the menu to learn more about me.</p>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-header" id="modal-title"></div>
+        <div class="modal-content" id="modal-body"></div>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+    </div>
+
+    <footer>
+        &copy; 2025 Abdulrahman Alobaisi | All Rights Reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
